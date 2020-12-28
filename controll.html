@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf8">
+<link rel="stylesheet" href="controllStyle.css">
+<title>CONTROL!</title>
+</head>
+
+
+<body>
+
+<h1>لوحة تحكم بآلة الحقن </h1>
+
+
+<form action= "Extract.php" method="POST">
+<br>
+
+ 
+<button class="button"  type="submit" style="margin-left:30% ;" value="ON" name="run">تشغيل مرة واحدة</button>
+  <br><br>
+  <label class="quantity" for="quantity">عدد مرات الطباعة </label><br>
+
+  <input class="quantity" type="number" id="quantity" name="quantity" min="1" max="50"><br><br>
+<button class="button" type="submit" value="quantity" name="run1">تشغيل مستمر</button>
+  <br><br><br><br>
+
+<button class="button" type="submit" style="margin-right:30% ;" value="OFF" name="stop">إيقاف التشغيل </button>
+  <br><br>
+</form>
+
+</body>
+</html>
